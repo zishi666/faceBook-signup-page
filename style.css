@@ -1,0 +1,192 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 69, 69);
+    flex-direction: column;
+}
+
+.smallerText {
+    line-height: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(48, 43, 43);
+}
+
+.biggerText{
+    line-height: 0%;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    background-color: white;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#header {
+    height: auto;
+    margin: 0%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-bottom: 1px solid rgb(219, 217, 217);
+}
+
+.Acontainer{
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    flex-direction: row;
+    width: 98.8%;
+    margin-bottom: 0.8rem;
+}
+
+.nameinput{
+    width: 55%;
+}
+
+.Ainput1{
+    width: 95.5%;
+}
+
+.Ainput2 {
+     margin-top: 0.8rem;
+    width: 95.5%;
+}
+
+.dobContainer {
+    padding: 0.8rem;
+}
+
+.dobsubContainer {
+    width: 99%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dropbox{
+    width: 31%;
+    height: 30px;
+
+}
+
+select {
+    background-color: white;
+    border: 1px solid rgb(177, 177, 177);
+    outline: none;
+    border-radius: 5px;
+}
+
+.Genderconatiner{
+    padding: 0.8rem;
+}
+
+.radioContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.radiobtn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+
+    >p{ 
+        line-height: 0%;
+    }
+
+}
+
+.sameFields {
+    padding: 6px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(170, 167, 167);
+}
+
+.descriptionBox{
+    margin-top: -7px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.des{
+    margin: 5px;
+    display: inline;
+    overflow-x: visible;
+    line-height: 110%;
+    font-size: 14px;
+    width: 400px;
+    color: rgb(124, 118, 118);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+span{
+    color: rgb(71, 71, 253);
+}
+
+.SignUPbtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
+
+.signupBTN{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(11, 155, 11);
+}
+
+.Alreadyaccount{
+    color: rgb(71, 71, 253);
+    word-spacing: 1px;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
